@@ -1,6 +1,7 @@
 
-
 .container {
+    width: 100%;
+    display: inline-block;
     background-color: black;
     h1 {
         color: blue;
@@ -10,4 +11,29 @@
         color: red;
     }
 
+}
+
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+        li {
+            display: inline;
+            font-size: 18px;
+            a {
+                color: #f2f2f2;
+                text-decoration: none;
+                padding: 14px;
+                &:hover {
+                    background-color: #ff0000;
+                }
+            }
+        }
+    }
 }
