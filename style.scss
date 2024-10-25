@@ -1,3 +1,5 @@
+$primary-color: #3498db;
+$secondary-color: #e74;
 
 .container {
     width: 100%;
@@ -14,7 +16,7 @@
 }
 
 nav {
-    background-color: #333;
+    background-color: $secondary-color;
     position: fixed;
     top: 0;
     width: 100%;
@@ -27,7 +29,7 @@ nav {
             display: inline;
             font-size: 18px;
             a {
-                color: #f2f2f2;
+                color: $primary-color;
                 text-decoration: none;
                 padding: 14px;
                 &:hover {
