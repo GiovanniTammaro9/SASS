@@ -39,3 +39,14 @@ nav {
         }
     }
 }
+
+.ul {
+    background-color: #e7e7e7;
+}
+
+.contatto {
+    @extend .ul;
+    border: 1px solid #333333;
+
+}
+
