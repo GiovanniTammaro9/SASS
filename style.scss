@@ -1,4 +1,4 @@
-@use '_variables.scss';
+@use 'variables';
 
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: _variables.$primary-color;
+    background-color: red;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,7 +28,7 @@ nav {
             display: inline;
             font-size: 18px;
             a {
-                color: $primary-color;
+                color: blue;
                 text-decoration: none;
                 padding: 14px;
                 &:hover {
