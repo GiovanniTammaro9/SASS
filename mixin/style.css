@@ -1,0 +1,72 @@
+body {
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+.container-1 {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.scuro {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.scuro ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+.scuro ul li {
+  display: inline;
+  font-size: 18px;
+}
+.scuro ul li a {
+  color: blue;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.container-2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.chiaro {
+  background-color: red;
+  width: 100%;
+}
+.chiaro ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+.chiaro ul li {
+  display: inline;
+  font-size: 18px;
+}
+.chiaro ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.scuro {
+  background-color: red;
+}
+
+.chiaro {
+  background-color: #000000;
+  color: white;
+}
+.chiaro ul :hover {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
