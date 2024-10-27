@@ -1,0 +1,68 @@
+body {
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: black;
+}
+
+nav {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+nav ul li {
+  display: inline;
+  font-size: 18px;
+}
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+  padding: 14px;
+}
+nav ul li a:hover {
+  background-color: #ff0000;
+}
+
+.ul, .contatto {
+  background-color: #e7e7e7;
+}
+
+.contatto {
+  border: 1px solid #333333;
+}
+
+.primo-paragrafo {
+  margin-top: 50px;
+  height: 50px;
+  width: 33.3333333333%;
+}
+
+.lista-#ff0000 {
+  color: #ff0000;
+}
+
+.lista-#ffaa00 {
+  color: #ffaa00;
+}
+
+.lista-#ffa {
+  color: #ffa;
+}
+
+.lista-#ffff00 {
+  color: #ffff00;
+}
+
+/*# sourceMappingURL=style.css.map */

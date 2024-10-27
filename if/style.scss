@@ -1,0 +1,64 @@
+$colors: #ff0000, #ffaa00, #ffa , #ffff00;
+
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: black;
+   
+
+}
+
+nav {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+        li {
+            display: inline;
+            font-size: 18px;
+            a {
+                color: blue;
+                text-decoration: none;
+                padding: 14px;
+                &:hover {
+                    background-color: #ff0000;
+                }
+            }
+        }
+    }
+}
+
+.ul {
+    background-color: #e7e7e7;
+}
+
+
+.contatto {
+    @extend .ul;
+    border: 1px solid #333333;
+
+}
+
+.primo-paragrafo {
+    margin-top: 50px;
+    height: 50px;
+    width: calc(100% / 3);
+}
+
+
+@each $color in $colors {
+    .lista-#{$color} {
+        color: $color;
+    }
+}
