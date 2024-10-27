@@ -1,5 +1,4 @@
-$primary-color: #3498db;
-$secondary-color: #e74;
+@use '_variables.scss';
 
 
 body {
@@ -16,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: $secondary-color;
+    background-color: _variables.$primary-color;
     position: fixed;
     top: 0;
     width: 100%;
