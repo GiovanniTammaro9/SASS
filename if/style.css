@@ -27,12 +27,12 @@ nav ul li {
   font-size: 18px;
 }
 nav ul li a {
-  color: blue;
   text-decoration: none;
   padding: 14px;
+  color: blue;
 }
 nav ul li a:hover {
-  background-color: #ff0000;
+  background-color: grey;
 }
 
 .ul, .contatto {
@@ -49,20 +49,20 @@ nav ul li a:hover {
   width: 33.3333333333%;
 }
 
-.lista-#ff0000 {
-  color: #ff0000;
+.lista-red #ff0000 {
+  color: red #ff0000;
 }
 
-.lista-#ffaa00 {
-  color: #ffaa00;
+.lista-orange #ffaa00 {
+  color: orange #ffaa00;
 }
 
-.lista-#ffa {
-  color: #ffa;
+.lista-yellow #ffa {
+  color: yellow #ffa;
 }
 
-.lista-#ffff00 {
-  color: #ffff00;
+.lista-ocra #ffff00 {
+  color: ocra #ffff00;
 }
 
 /*# sourceMappingURL=style.css.map */
